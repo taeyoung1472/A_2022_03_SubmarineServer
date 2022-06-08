@@ -58,7 +58,7 @@ public class ServerSend
     /// </summary>
     /// <param name="_toClient"></param>
     /// <param name="_msg"></param>
-    public static void LobbyUpdate(UserData[] datas)
+    /*public static void LobbyUpdate(UserData[] datas)
     {
         using (Packet _packet = new Packet((int)ServerPackets.lobby_Update))
         {
@@ -72,7 +72,7 @@ public class ServerSend
 
             SendUDPDataToAll(_packet);
         }
-    }
+    }*/
 
     /// <summary>
     /// 플레이어의 스폰을 명령하는 함수

@@ -145,8 +145,8 @@ public class Server
         packetHandlers = new Dictionary<int, PacketHandler>()
             {
                 { (int)ClientPackets.welcomeReceived, ServerHandle.WelcomeReceived },
-                { (int)ClientPackets.lobby_Start, ServerHandle. },
-                { (int)ClientPackets.lobby_Ready, ServerHandle. },
+                //{ (int)ClientPackets.lobby_Start, ServerHandle. },
+                //{ (int)ClientPackets.lobby_Ready, ServerHandle. },
                 { (int)ClientPackets.playerMovement, ServerHandle.PlayerMovement },
                 { (int)ClientPackets.requestSpawnAgain, ServerHandle.PlayerSpawnAgain },
                 { (int)ClientPackets.submarineMovement, ServerHandle.SubmarineMovement },

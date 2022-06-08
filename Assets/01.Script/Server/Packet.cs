@@ -7,7 +7,7 @@ using UnityEngine;
 public enum ServerPackets
 {
     welcome = 1,
-    lobby_Update,
+    //lobby_Update,
     spawnPlayer,
     playerPositionAndRotation,
     mapPositionAndRotation,
@@ -24,8 +24,8 @@ public enum ServerPackets
 public enum ClientPackets
 {
     welcomeReceived = 1,
-    lobby_Ready,
-    lobby_Start,
+    //lobby_Ready,
+    //lobby_Start,
     succesToLoadGameScene,
     playerMovement,
     requestSpawnAgain,
